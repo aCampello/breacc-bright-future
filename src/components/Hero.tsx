@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
 
           {/* Medium bubble — team */}
-          <div className="absolute bottom-4 left-0 md:left-4 w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-secondary shadow-2xl z-30">
+          <div className="absolute bottom-4 left-0 md:left-4 w-44 h-44 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary shadow-2xl z-30">
             <img
               src={teamPhoto}
               alt="Equipe do BREACC com camisetas verdes"
@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
 
           {/* Small bubble — flags */}
-          <div className="absolute top-[55%] right-[5%] md:right-[15%] w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-accent shadow-2xl z-10">
+          <div className="absolute top-[55%] right-[5%] md:right-[15%] w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-accent shadow-2xl z-10">
             <img
               src={flagsPhoto}
               alt="Artesanato com bandeiras do Brasil"
