@@ -33,9 +33,9 @@ const Hero = () => {
         </div>
 
         {/* Right — Photo Bubbles */}
-        <div className="flex-1 relative min-h-[400px] md:min-h-[500px] w-full max-w-lg lg:max-w-none">
+        <div className="flex-1 relative min-h-[340px] md:min-h-[420px] w-full max-w-lg lg:max-w-none">
           {/* Large bubble — carnival */}
-          <div className="absolute top-0 right-0 md:right-8 w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-2xl z-20">
+          <div className="absolute top-0 right-0 md:right-8 w-52 h-52 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-primary shadow-2xl z-20">
             <img
               src={carnivalPhoto}
               alt="Festa de carnaval do BREACC com bandeira do Brasil"
